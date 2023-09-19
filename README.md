@@ -50,7 +50,6 @@ Normally in a frontend application, all the source code that we generate is loca
 
 ```
 ── src
-    ├── app
     ├── core
     ├── feature
     ├── shared
@@ -66,8 +65,8 @@ When creating folders we are always going to create them in sharp lowercase, and
 
 ```
 └── components
-    ├── hero
-    ├── hero-form
+    ├── product
+    ├── product-form
     ├── home
     ├── login
     ├── revenue-report
@@ -92,15 +91,15 @@ It is recommended that the folder name, file name, and React function component 
 
 ```
 └── components
-    ├── hero
-        ├── Hero.js
-        └── Hero.css
-    ├── hero-form
-        ├── HeroForm.js
-        └── HeroForm.css
-    └── hero-card
-        ├── HeroCard.js
-        └── HeroCard.css        
+    ├── product
+        ├── Product.js
+        └── Product.css
+    ├── product-form
+        ├── ProductForm.js
+        └── ProductForm.css
+    └── product-card
+        ├── ProductCard.js
+        └── ProductCard.css        
 ```
 
 #### 2.2.2 Pages
@@ -123,9 +122,9 @@ For these cases, where a component has a route assigned in the application route
     └── login
         ├── LoginPage.js
         └── LoginPage.css
-    ├── hero
-        ├── HeroPage.js
-        └── HeroPage.css
+    ├── product
+        ├── ProductPage.js
+        └── ProductPage.css
     └── home
         ├── HomePage.js
         └── HomePage.css        
@@ -138,10 +137,10 @@ When creating the functional react components, we will create them concisely by 
 #### 2.3.1 Regular componentS
 
 ```
-export default function HeroDetail() {
+export default function ProductDetail() {
   return (
     <div>
-        Hero details!
+        Product details!
     </div>
   )
 }
@@ -154,10 +153,10 @@ export default function HeroDetail() {
 In the case of components that have an assigned path, that is, pages components, it would look like this:
 
 ```
-export default function HeroPage() {
+export default function ProductPage() {
   return (
     <div>
-        Main hero page!
+        Main products page!
     </div>
   )
 }
@@ -171,7 +170,7 @@ Like the hooks that come built into React, the idea is to name the files that co
 
 ```
 └── hooks
-    ├── useHero.js
+    ├── useProduct.js
     └── useHomePage.css
 ```
 
@@ -181,7 +180,7 @@ Like the hooks that come built into React, the idea is to name the files that co
 
 ```
 └── hooks
-    ├── useHeroData.js
+    ├── useProductData.js
     └── useHomePageData.css
 ```
 
@@ -196,7 +195,6 @@ And ideally, as new file types emerge, and the complexity of the project increas
 
 ```
 └── src
-    └── app
     └── core
         ├── hooks
         ├── slices
@@ -205,19 +203,19 @@ And ideally, as new file types emerge, and the complexity of the project increas
             ├── interfaces
             └── types
     ├── feature
-        └── heroes
+        └── product
             ├── components
-                └── hero-card
-                    ├── HeroCard.js
-                    └── HeroCard.css
-                └── hero-detail
-                    ├── HeroDetail.js
-                    └── HeroDetail.css
+                └── product-card
+                    ├── ProductCard.js
+                    └── ProductCard.css
+                └── product-detail
+                    ├── ProductDetail.js
+                    └── ProductDetail.css
             ├── pages
-                └── hero
-                    ├── HeroPage.js
-                    └── HeroPage.css
-            └── HeroRouting.js
+                └── product
+                    ├── ProductPage.js
+                    └── ProductPage.css
+            └── ProductRouting.js
     └── shared
         ├── components
             └── navbar
