@@ -1,0 +1,79 @@
+{
+    "products": [
+        {
+            "name": "Air Buds",
+            "image": "air-buds.png",
+            "price": 150
+        },
+        {
+            "name": "Executive Chair",
+            "image": "executive-chair.png",
+            "price": 120
+        },
+        {
+            "name": "gaming-chair",
+            "image": "gaming-chair.png",
+            "price": 320
+        },
+        {
+            "name": "Gaming Finger Sleeves",
+            "image": "gaming-finger-sleeve.png",
+            "price": 5
+        },
+        {
+            "name": "Gaming Headset",
+            "image": "gaming-headset.png",
+            "price": 60
+        },
+        {
+            "name": "Gaming Mouse",
+            "image": "gaming-mouse.png",
+            "price": 25
+        },
+        {
+            "name": "Hyper X Microphone",
+            "image": "hyper-x-mic.png",
+            "price": 120
+        },
+        {
+            "name": "iPad Pro 11 2021",
+            "image": "ipad-pro-11-2021.png",
+            "price": 1100
+        },
+        {
+            "name": "iPhone 14 Pro Max",
+            "image": "iphone-14-pro-max.png",
+            "price": 1600
+        },
+        {
+            "name": "KeyChron Keyboard",
+            "image": "keyboard-keychrone.png",
+            "price": 145
+        },
+        {
+            "name": "Logitech StreamCam",
+            "image": "logitech-stream-cam.png",
+            "price": 180
+        },
+        {
+            "name": "Play Station 5",
+            "image": "ps5.png",
+            "price": 750
+        },
+        {
+            "name": "Ultra Wide Screen Monitor",
+            "image": "ultra-wide-screen-monitor.png",
+            "price": 1000
+        },
+        {
+            "name": "Xbox Controller",
+            "image": "xbox-controller.png",
+            "price": 45
+        },
+        {
+            "name": "Xbox Serie X",
+            "image": "xbox-x-series.png",
+            "price": 1200
+        }
+    ]
+}
