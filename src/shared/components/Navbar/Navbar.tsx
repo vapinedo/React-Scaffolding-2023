@@ -1,8 +1,8 @@
-import "./Navbar.css";
-import { Link } from "react-router-dom";
+import './Navbar.css'
+import { Link } from 'react-router-dom'
 
-export default function Navbar() {
-    return (
+export default function Navbar () {
+  return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary mb-4" data-bs-theme="dark">
             <div className="container-fluid">
 
@@ -26,6 +26,5 @@ export default function Navbar() {
                 </div>
             </div>
         </nav>
-
-    )
+  )
 }
